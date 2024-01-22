@@ -1,1 +1,1 @@
-https://www.notion.so/Crypto-Wallet-48762250d09e44f79952dad80a180691?pvs=4
+https://www.figma.com/file/qMJ6YrFGHMByFFmnY4zvJ8/Wisecrypto---Cryptocurrency-App-(Community)?type=design&node-id=3026-11791&mode=design&t=WiPCp4FUzRshfASh-0
