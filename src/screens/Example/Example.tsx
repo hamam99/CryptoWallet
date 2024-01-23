@@ -11,7 +11,7 @@ import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from '@tanstack/react-query';
 
-import { ImageVariant } from '@/components/atoms';
+// import { ImageVariant } from '@/components/atoms/Loading';
 import { Brand } from '@/components/molecules';
 import { SafeScreen } from '@/components/template';
 import { useTheme } from '@/theme';
@@ -22,6 +22,7 @@ import { isImageSourcePropType } from '@/types/guards/image';
 import SendImage from '@/theme/assets/images/send.png';
 import ColorsWatchImage from '@/theme/assets/images/colorswatch.png';
 import TranslateImage from '@/theme/assets/images/translate.png';
+import ImageVariant from '@/components/atoms/ImageVariant/ImageVariant';
 
 function Example() {
 	const { t } = useTranslation(['example', 'welcome']);

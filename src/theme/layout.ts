@@ -66,6 +66,9 @@ export default {
 	bottom0: {
 		bottom: 0,
 	},
+	bottom64: {
+		bottom: 64,
+	},
 	left0: {
 		left: 0,
 	},
