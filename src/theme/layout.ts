@@ -63,6 +63,9 @@ export default {
 	top0: {
 		top: 0,
 	},
+	top48: {
+		top: 48,
+	},
 	bottom0: {
 		bottom: 0,
 	},
@@ -80,5 +83,14 @@ export default {
 	},
 	z10: {
 		zIndex: 10,
+	},
+	gap4: {
+		gap: 4,
+	},
+	gap8: {
+		gap: 8,
+	},
+	gap24: {
+		gap: 24,
 	},
 } as const satisfies Record<string, ViewStyle>;

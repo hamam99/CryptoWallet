@@ -30,6 +30,9 @@ export const staticFontStyles = {
 	bold: {
 		fontWeight: 'bold',
 	},
+	underline: {
+		textDecorationLine: 'underline',
+	},
 	semibold: {
 		fontWeight: '400',
 	},

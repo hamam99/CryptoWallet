@@ -12,6 +12,9 @@ const colorsLight = {
 	purple500: '#44427D',
 	purple100: '#E1E1EF',
 	white: 'white',
+	primary: '#5EDE99',
+	green: '#5EDE99',
+	warning: '#EFBE24',
 } as const;
 
 const colorsDark = {
@@ -23,9 +26,12 @@ const colorsDark = {
 	purple100: '#252732',
 	purple50: '#1B1A23',
 	white: 'white',
+	primary: '#5EDE99',
+	green: '#5EDE99',
+	warning: '#EFBE24',
 } as const;
 
-const sizes = [12, 16, 24, 32, 40, 80] as const;
+const sizes = [3, 6, 8, 10, 12, 14, 16, 18, 20, 24, 32, 40, 80] as const;
 
 export const config = {
 	fonts: {
@@ -36,7 +42,7 @@ export const config = {
 	backgrounds: colorsLight,
 	borders: {
 		widths: [1, 2],
-		radius: [4, 16],
+		radius: [4, 8, 16],
 		colors: colorsLight,
 	},
 	navigationColors: {
